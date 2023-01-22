@@ -13,10 +13,10 @@ namespace CRUD.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TeacherCollegeDBEntities : DbContext
+    public partial class TeacherCollegeDBEntities1 : DbContext
     {
-        public TeacherCollegeDBEntities()
-            : base("name=TeacherCollegeDBEntities")
+        public TeacherCollegeDBEntities1()
+            : base("name=TeacherCollegeDBEntities1")
         {
         }
     

@@ -33,7 +33,7 @@
           <Property Name="CNIC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="TeacherCollegeDBEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="TeacherCollegeDBEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Teachers" EntityType="Self.Teacher" />
         </EntityContainer>
       </Schema>
@@ -41,7 +41,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="TeacherCollegeDBModelStoreContainer" CdmEntityContainer="TeacherCollegeDBEntities">
+        <EntityContainerMapping StorageEntityContainer="TeacherCollegeDBModelStoreContainer" CdmEntityContainer="TeacherCollegeDBEntities1">
           <EntitySetMapping Name="Teachers">
             <EntityTypeMapping TypeName="TeacherCollegeDBModel.Teacher">
               <MappingFragment StoreEntitySet="Teacher">

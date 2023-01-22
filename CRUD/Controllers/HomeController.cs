@@ -10,6 +10,7 @@ namespace CRUD.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
